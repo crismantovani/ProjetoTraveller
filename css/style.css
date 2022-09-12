@@ -1,0 +1,23 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Arimo&display=swap');*/
+
+.container-fluid{
+    padding-left: 0;
+} 
+
+.teste{
+    position: absolute;
+    width: 1373px;
+    height: 159px;
+    left: 109px;
+    top: 624px;
+}
+
+.btn-cards {
+    margin: 20px;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+
