@@ -2,82 +2,147 @@
 <html lang="pt-br">
 
 <head>
-  <!-- Required meta tags -->
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
 
-  <!-- INÍCIO BOOTSTRAP -->
-  <link rel="stylesheet" href="./css/bootstrap.css">
-  <!-- FINAL BOOTSTRAP -->
-  <link rel="stylesheet" href="./css/style.css">
+    <!-- INÍCIO BOOTSTRAP -->
+    <link rel="stylesheet" href="./css/bootstrap.css">
+    <!-- FINAL BOOTSTRAP -->
+    <link rel="stylesheet" href="./css/style.css">
 
-
-  <title>Gulliver Traveller</title>
+    <title>Gulliver Traveller</title>
 </head>
 
 <body>
-  <header>
-        <div  class="container-fluid">
-           <img src="./image/Hospedagem.png" alt="">
-        </div>
+    <header>
 
-        <div class="input-group mb-3 teste">
-            <input type="text" class="form-control" placeholder="Destino" aria-label="Recipient's username" aria-describedby="button-addon2">
+        <nav class="navbar navbar-expand-lg">
+            <a class="navbar-brand" href="#">Gulliver Traveller</a>
+          
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Blog</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Cadastre-se</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Login</a>
+                    </li>
+                </ul>
+            </div>
+          </nav>
+
+
+        <div class="menu-busca borda">
+            <input type="text" class="form-control" placeholder="Destino" aria-label="Recipient's username"
+                aria-describedby="button-addon2">
             <select class="custom-select" id="inputGroupSelect04" aria-label="Example select with button addon">
-                <option selected>Choose...</option>
-                <option value="1">One</option>
-                <option value="2">Two</option>
-                <option value="3">Three</option>
+                <option selected>Check-in</option>
+                <option value="1"></option>
+                <option value="2"></option>
+                <option value="3"></option>
             </select>
             <select class="custom-select" id="inputGroupSelect04" aria-label="Example select with button addon">
-                <option selected>Choose...</option>
-                <option value="1">One</option>
-                <option value="2">Two</option>
-                <option value="3">Three</option>
+                <option selected>Check-out</option>
+                <option value="1"></option>
+                <option value="2"></option>
+                <option value="3"></option>
             </select>
             <select class="custom-select" id="inputGroupSelect04" aria-label="Example select with button addon">
-                <option selected>Choose...</option>
-                <option value="1">One</option>
-                <option value="2">Two</option>
-                <option value="3">Three</option>
+                <option selected>Hospedes</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">2</option>
             </select>
             <div class="input-group-append">
                 <button class="btn btn-outline-secondary" type="button">Buscar</button>
             </div>
         </div>
+    </header>
 
-        <div class="btn-cards">
+    
+    <div class="botao">
+        <button type="button" class="menu-btn">
+            <a href="./hospedagem/hospedagem.html" target="_blank"></a>
+            Hospedagem
+        </button>
+        <button type="button" class="menu-btn">
+            <a href=""></a>
+            Como chegar
+        </button>
+        <button type="button" class="menu-btn">
+            <a href=""></a>
+            Gastronomia
+        </button>
+        <button type="button" class="menu-btn">
+            <a href=""></a>
+            Entretenimento
+        </button>
+    </div>
+    <div class="botao">
+        <button type="button" class="menu-btn">
+            <a href=""></a>
+            Aluguel de carro
+        </button>
+        <button type="button" class="menu-btn">
+            <a href=""></a>
+            Cultura
+        </button>
+        <button type="button" class="menu-btn">
+            <a href=""></a>
+            Parques
+        </button>
+        <button type="button" class="menu-btn">
+            <a href=""></a>
+            Dicas úteis
+        </button>
+    </div>
 
-            <div>
-              <h1>Compartilhe. <br>
-                Aprenda. Viaje. <br> <br>
-              </h1>
-              <h3>
-                Veja dicas de <br> viajantes que já <br> estiveram no seu destino. <br> <br>
-        
-                Compartilhe sua <br> experiência com <br> outros viajantes.
-              </h3>
-            </div>
-        
-            <div class="card " style="width: 13rem; height: 20rem">
-              <img src="./image/dicas.jpg" class="card-img-top" alt="...">
-              <div class="card-body">
-                <h5 class="card-title">Dicas de Viagens</h5>
-                <p class="card-text"></p>
-                <a href="#" class="btn btn-primary">Acessar</a>
-              </div>
-            </div>
-            <div class="card " style="width: 13rem; height: 20rem">
-              <img src="./image/foruns.jpg" class="card-img-top" alt="...">
-              <div class="card-body">
-                <h5 class="card-title">Fóruns de Viagens</h5>
-                <p class="card-text"></p>
-                <a href="#" class="btn btn-primary">Acessar</a>
-              </div>
-            </div>
-          </div>
 
+
+    <div class="card-body">
+        <div class="card" style="width: 12rem;">
+            <a href="">
+            <img src="./image/Destinos/ibira.png" class="card-img-top" alt="...">
+            </a>
+        </div>
+        <div class="card" style="width: 12rem;">
+            <a href="">
+            <img src="./image/Destinos/paulista.png" class="card-img-top" alt="...">
+            </a>
+        </div>
+        <div class="card" style="width: 12rem;">
+            <a href="">
+            <img src="./image/Destinos/luz.png" class="card-img-top" alt="...">
+            </a>
+        </div>
+        <div class="card" style="width: 12rem;">
+            <a href="">
+            <img src="./image/Destinos/se.png" class="card-img-top" alt="...">
+            </a>
+        </div>
+    </div>
+
+
+    <nav aria-label="Page navigation example">
+        <ul class="pagination justify-content-center">
+          <li class="page-item disabled">
+            <a class="page-link"><</a>
+          </li>
+          <li class="page-item"><a class="page-link" href="#">1</a></li>
+          <li class="page-item"><a class="page-link" href="#">2</a></li>
+          <li class="page-item"><a class="page-link" href="#">3</a></li>
+          <li class="page-item">
+            <a class="page-link" href="#">></a>
+          </li>
+        </ul>
+      </nav>
+
+<script type="" src="./js/scripts.js"></script>
 
 </body>
 
