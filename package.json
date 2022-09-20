@@ -4,6 +4,6 @@
   "version": "1.0.0",
   "engines": {
     "node": "16.15.1",
-    "start": "node app.js"
+    "start": "node index.html"
   }
 }
