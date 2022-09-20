@@ -2,8 +2,9 @@
   "name": "traveller-geo",
   "description": "APP FIAP",
   "version": "1.0.0",
+  "main": "index.html",
   "engines": {
     "node": "16.15.1",
-    "start": "node index.html"
+    "start": "node index"
   }
 }
