@@ -1,7 +1,11 @@
-{ 
+{
   "name": "traveller-geo",
-  "version": "0.1.0",
-  "private": true,
-  "homepage": "https://github.com/crismantovani/ProjetoTraveller"
+  "description": "APP FIAP",
+  "version": "1.0.0",
+  "main": "index",
+  "engines": {
+    "node": "16.15.1",
+    "start": "node main.js"
+  }
 }
 
